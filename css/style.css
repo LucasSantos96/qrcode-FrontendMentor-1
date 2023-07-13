@@ -9,14 +9,14 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
     max-width: 330px;
-    padding-top: 80px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+   text-align: center;
 
 }
 .qrcode{
@@ -30,13 +30,13 @@ body {
     border-radius: 15px;
 }
 h1{
-    text-align: center;
+  
     font-size: 22px;
     color: hsl(218, 44%, 22%);
     padding: 15px;
 }
 p{
-    text-align: center;
+
     font-size: 15px;
     color: hsl(220, 15%, 55%);
     padding-bottom: 15px;
